@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
@@ -10,6 +10,15 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// class Main extends React.Component {
+//   render() {
+//     return <App />;
+//   }
+// }
+
+// const rootElement = document.getElementById('root');
+// ReactDOM.render(<Main />, rootElement);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
