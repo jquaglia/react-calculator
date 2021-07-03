@@ -1,12 +1,33 @@
 // import logo from './logo.svg';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.scss';
 import Title from './components/title/Title';
 import OutputScreen from './components/outputScreen/Output-screen';
 import ButtonC from './components/button/Button';
 // import { Button } from 'react-bootstrap';
 
+
+
+
 const App = () => {
+
+  // const [question, setQuestion] = useState();
+  // const [answer, setAnswer] = useState();
+
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+  //   const value = e.target.value;
+
+  //   switch (value) {
+  //     case '=': {
+
+
+  //     }
+  //   }
+
+
+  // }
+
   return (
     <div className='frame'>
       <Title value='Calculator Appy' />
